@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="picoTest1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60105"/>
+					<Add option="-DARDUINO_RASPBERRY_PI_PICO"/>
+					<Add option="-DARDUINO_ARCH_RP2040"/>
+					<Add option="-DARM_MATH_CM0PLUS"/>
+					<Add option="-D__CMSIS_RTOS"/>
+					<Add option="-DCOMPONENT_FLASHIAP=1"/>
+					<Add option="-D__CORTEX_M0PLUS"/>
+					<Add option="-DDEVICE_ANALOGIN=1"/>
+					<Add option="-DDEVICE_FLASH=1"/>
+					<Add option="-DDEVICE_I2C=1"/>
+					<Add option="-DDEVICE_I2CSLAVE=1"/>
+					<Add option="-DDEVICE_INTERRUPTIN=1"/>
+					<Add option="-DDEVICE_PORT_IN=1"/>
+					<Add option="-DDEVICE_PORT_OUT=1"/>
+					<Add option="-DDEVICE_PWMOUT=1"/>
+					<Add option="-DDEVICE_RESET_REASON=1"/>
+					<Add option="-DDEVICE_RTC=1"/>
+					<Add option="-DDEVICE_SERIAL=1"/>
+					<Add option="-DDEVICE_SERIAL_FC=1"/>
+					<Add option="-DDEVICE_SPI=1"/>
+					<Add option="-DDEVICE_USBDEVICE=1"/>
+					<Add option="-DDEVICE_USTICKER=1"/>
+					<Add option="-DDEVICE_WATCHDOG=1"/>
+					<Add option="-D__MBED__=1"/>
+					<Add option="-DMBED_BUILD_TIMESTAMP=1652255920.4792204"/>
+					<Add option="-D__MBED_CMSIS_RTOS_CM"/>
+					<Add option="-DMBED_MPU_CUSTOM"/>
+					<Add option="-DMBEDTLS_ENTROPY_NV_SEED"/>
+					<Add option="-DPICO_NO_BINARY_INFO=1"/>
+					<Add option="-DPICO_ON_DEVICE=1"/>
+					<Add option="-DPICO_RP2040_USB_DEVICE_ENUMERATION_FIX=1"/>
+					<Add option="-DPICO_TIME_DEFAULT_ALARM_POOL_DISABLED"/>
+					<Add option="-DPICO_UART_ENABLE_CRLF_SUPPORT=0"/>
+					<Add option="-DTARGET_CORTEX"/>
+					<Add option="-DTARGET_CORTEX_M"/>
+					<Add option="-DTARGET_LIKE_CORTEX_M0"/>
+					<Add option="-DTARGET_LIKE_MBED"/>
+					<Add option="-DTARGET_M0P"/>
+					<Add option="-DTARGET_memmap_default"/>
+					<Add option="-DTARGET_NAME=RASPBERRY_PI_PICO"/>
+					<Add option="-DTARGET_RASPBERRYPI"/>
+					<Add option="-DTARGET_RASPBERRY_PI_PICO"/>
+					<Add option="-DTARGET_RELEASE"/>
+					<Add option="-DTARGET_RP2040"/>
+					<Add option="-DTOOLCHAIN_GCC"/>
+					<Add option="-DTOOLCHAIN_GCC_ARM"/>
+					<Add option="-DMBED_NO_GLOBAL_USING_DIRECTIVE=1"/>
+					<Add option="-DCORE_MAJOR=3"/>
+					<Add option="-DCORE_MINOR=1"/>
+					<Add option="-DCORE_PATCH=1"/>
+					<Add option="-DUSE_ARDUINO_PINOUT"/>
+					<Add option="-DARDUINO=10810"/>
+					<Add option="-DARDUINO_ARCH_MBED"/>
+					<Add directory="C:/Users/hyman/REPOS/platformio/picoTest1/include"/>
+					<Add directory="C:/Users/hyman/REPOS/platformio/picoTest1/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/cores/arduino"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated-avr-comp"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/variants/RASPBERRY_PI_PICO"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Camera/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Ethernet/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/GC2145"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/GPS/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/GSM/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Himax_HM01B0"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/KernelDebug/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/MCUboot/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/MLC/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/MRI/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Nano33BLE_System/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Nicla_System/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/PDM/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Audio/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_SDCARD/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_SDRAM/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Video/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_lvgl/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/RPC/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/SE05X/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/SFU/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/SPI"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/STM32H747_System/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Scheduler/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/SocketWrapper/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/ThreadDebug/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/USBAudio"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/USBHID/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/USBHOST/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/USBMSD/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/WiFi/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Wire"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/doom/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/ea_malloc"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/mbed-memory-status"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/openamp_arduino/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/rpclib/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60105"/>
+					<Add option="-DARDUINO_RASPBERRY_PI_PICO"/>
+					<Add option="-DARDUINO_ARCH_RP2040"/>
+					<Add option="-DARM_MATH_CM0PLUS"/>
+					<Add option="-D__CMSIS_RTOS"/>
+					<Add option="-DCOMPONENT_FLASHIAP=1"/>
+					<Add option="-D__CORTEX_M0PLUS"/>
+					<Add option="-DDEVICE_ANALOGIN=1"/>
+					<Add option="-DDEVICE_FLASH=1"/>
+					<Add option="-DDEVICE_I2C=1"/>
+					<Add option="-DDEVICE_I2CSLAVE=1"/>
+					<Add option="-DDEVICE_INTERRUPTIN=1"/>
+					<Add option="-DDEVICE_PORT_IN=1"/>
+					<Add option="-DDEVICE_PORT_OUT=1"/>
+					<Add option="-DDEVICE_PWMOUT=1"/>
+					<Add option="-DDEVICE_RESET_REASON=1"/>
+					<Add option="-DDEVICE_RTC=1"/>
+					<Add option="-DDEVICE_SERIAL=1"/>
+					<Add option="-DDEVICE_SERIAL_FC=1"/>
+					<Add option="-DDEVICE_SPI=1"/>
+					<Add option="-DDEVICE_USBDEVICE=1"/>
+					<Add option="-DDEVICE_USTICKER=1"/>
+					<Add option="-DDEVICE_WATCHDOG=1"/>
+					<Add option="-D__MBED__=1"/>
+					<Add option="-DMBED_BUILD_TIMESTAMP=1652255920.4792204"/>
+					<Add option="-D__MBED_CMSIS_RTOS_CM"/>
+					<Add option="-DMBED_MPU_CUSTOM"/>
+					<Add option="-DMBEDTLS_ENTROPY_NV_SEED"/>
+					<Add option="-DPICO_NO_BINARY_INFO=1"/>
+					<Add option="-DPICO_ON_DEVICE=1"/>
+					<Add option="-DPICO_RP2040_USB_DEVICE_ENUMERATION_FIX=1"/>
+					<Add option="-DPICO_TIME_DEFAULT_ALARM_POOL_DISABLED"/>
+					<Add option="-DPICO_UART_ENABLE_CRLF_SUPPORT=0"/>
+					<Add option="-DTARGET_CORTEX"/>
+					<Add option="-DTARGET_CORTEX_M"/>
+					<Add option="-DTARGET_LIKE_CORTEX_M0"/>
+					<Add option="-DTARGET_LIKE_MBED"/>
+					<Add option="-DTARGET_M0P"/>
+					<Add option="-DTARGET_memmap_default"/>
+					<Add option="-DTARGET_NAME=RASPBERRY_PI_PICO"/>
+					<Add option="-DTARGET_RASPBERRYPI"/>
+					<Add option="-DTARGET_RASPBERRY_PI_PICO"/>
+					<Add option="-DTARGET_RELEASE"/>
+					<Add option="-DTARGET_RP2040"/>
+					<Add option="-DTOOLCHAIN_GCC"/>
+					<Add option="-DTOOLCHAIN_GCC_ARM"/>
+					<Add option="-DMBED_NO_GLOBAL_USING_DIRECTIVE=1"/>
+					<Add option="-DCORE_MAJOR=3"/>
+					<Add option="-DCORE_MINOR=1"/>
+					<Add option="-DCORE_PATCH=1"/>
+					<Add option="-DUSE_ARDUINO_PINOUT"/>
+					<Add option="-DARDUINO=10810"/>
+					<Add option="-DARDUINO_ARCH_MBED"/>
+					<Add directory="C:/Users/hyman/REPOS/platformio/picoTest1/include"/>
+					<Add directory="C:/Users/hyman/REPOS/platformio/picoTest1/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/cores/arduino"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated-avr-comp"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/variants/RASPBERRY_PI_PICO"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Camera/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Ethernet/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/GC2145"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/GPS/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/GSM/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Himax_HM01B0"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/KernelDebug/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/MCUboot/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/MLC/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/MRI/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Nano33BLE_System/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Nicla_System/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/PDM/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Audio/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_SDCARD/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_SDRAM/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Video/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Portenta_lvgl/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/RPC/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/SE05X/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/SFU/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/SPI"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/STM32H747_System/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Scheduler/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/SocketWrapper/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/ThreadDebug/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/USBAudio"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/USBHID/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/USBHOST/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/USBMSD/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/WiFi/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/Wire"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/doom/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/ea_malloc"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/mbed-memory-status"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/openamp_arduino/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/framework-arduino-mbed/libraries/rpclib/src"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="C:/Users/hyman/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/hyman/REPOS/platformio/picoTest1/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/hyman/REPOS/platformio/picoTest1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/hyman/REPOS/platformio/picoTest1/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

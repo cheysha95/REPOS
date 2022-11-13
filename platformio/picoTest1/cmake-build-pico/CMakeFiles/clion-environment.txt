@@ -1,0 +1,4 @@
+ToolSet: w64 10.0 (local)@C:\Users\hyman\Downloads\mingw64
+Options: 
+
+Options:

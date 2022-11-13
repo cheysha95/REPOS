@@ -1,0 +1,156 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_274da/fast && C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_274da.dir\build.make CMakeFiles/cmTC_274da.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_274da.dir/CMakeCCompilerABI.c.obj
+C:\Users\hyman\Downloads\mingw64\bin\gcc.exe   -v -o CMakeFiles\cmTC_274da.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\Users\hyman\Downloads\mingw64\bin\gcc.exe
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-w64-mingw32
+Configured with: ../configure --prefix=/r/winlibs64-11.3.0ucrt/2604.gcc/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-mpfr=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-gmp=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-isl=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64-11.3.0ucrt/2604.gcc/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-I/e/Prog/winlibs64-11.3.0ucrt/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat -Wl,--disable-high-entropy-va -Wl,--disable-dynamicbase'
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_274da.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_274da.dir\'
+ c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\share\cmake-3.23\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_274da.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\hyman\AppData\Local\Temp\ccgrv5UE.s
+GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include"
+ignoring nonexistent directory "R:/winlibs64-11.3.0ucrt/2604.gcc/inst_gcc-12.2.0/share/gcc/include"
+ignoring nonexistent directory "/r/winlibs64-11.3.0ucrt/2604.gcc/inst_gcc-12.2.0/share/gcc/include"
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 036dc8dcfecf6e7f6f4f21af0f02b7e9
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_274da.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_274da.dir\'
+ c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_274da.dir\CMakeCCompilerABI.c.obj C:\Users\hyman\AppData\Local\Temp\ccgrv5UE.s
+GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.39
+COMPILER_PATH=c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_274da.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_274da.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_274da
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_274da.dir\link.txt --verbose=1
+C:\Users\hyman\Downloads\mingw64\bin\gcc.exe  -v CMakeFiles/cmTC_274da.dir/CMakeCCompilerABI.c.obj -o cmTC_274da 
+Using built-in specs.
+COLLECT_GCC=C:\Users\hyman\Downloads\mingw64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-w64-mingw32
+Configured with: ../configure --prefix=/r/winlibs64-11.3.0ucrt/2604.gcc/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-mpfr=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-gmp=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-isl=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64-11.3.0ucrt/2604.gcc/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-I/e/Prog/winlibs64-11.3.0ucrt/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat -Wl,--disable-high-entropy-va -Wl,--disable-dynamicbase'
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+COMPILER_PATH=c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_274da.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_274da.'
+ c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\hyman\AppData\Local\Temp\ccY30WCU.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_274da.exe c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_274da.dir/CMakeCCompilerABI.c.obj -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_274da.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_274da.'
+mingw32-make[1]: Leaving directory 'C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp/cmTC_274da
+  C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp/Debug/cmTC_274da
+  C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp/Development/cmTC_274da
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_715b8/fast && C:/Users/hyman/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_715b8.dir\build.make CMakeFiles/cmTC_715b8.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_715b8.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\hyman\Downloads\mingw64\bin\g++.exe   -v -o CMakeFiles\cmTC_715b8.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:\Users\hyman\Downloads\mingw64\bin\g++.exe
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-w64-mingw32
+Configured with: ../configure --prefix=/r/winlibs64-11.3.0ucrt/2604.gcc/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-mpfr=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-gmp=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-isl=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64-11.3.0ucrt/2604.gcc/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-I/e/Prog/winlibs64-11.3.0ucrt/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat -Wl,--disable-high-entropy-va -Wl,--disable-dynamicbase'
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_715b8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_715b8.dir\'
+ c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_715b8.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\hyman\AppData\Local\Temp\cc2foUSj.s
+GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include"
+ignoring nonexistent directory "R:/winlibs64-11.3.0ucrt/2604.gcc/inst_gcc-12.2.0/share/gcc/include"
+ignoring nonexistent directory "/r/winlibs64-11.3.0ucrt/2604.gcc/inst_gcc-12.2.0/share/gcc/include"
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"
+ignoring duplicate directory "c:/users/hyman/downloads/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed
+ c:\users\hyman\downloads\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 16512d3bcd6e7fc30e988209e0d6f609
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_715b8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_715b8.dir\'
+ c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_715b8.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\hyman\AppData\Local\Temp\cc2foUSj.s
+GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.39
+COMPILER_PATH=c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_715b8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_715b8.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_715b8
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_715b8.dir\link.txt --verbose=1
+C:\Users\hyman\Downloads\mingw64\bin\g++.exe  -v CMakeFiles/cmTC_715b8.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_715b8 
+Using built-in specs.
+COLLECT_GCC=C:\Users\hyman\Downloads\mingw64\bin\g++.exe
+COLLECT_LTO_WRAPPER=c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-w64-mingw32
+Configured with: ../configure --prefix=/r/winlibs64-11.3.0ucrt/2604.gcc/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-mpfr=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-gmp=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --with-isl=/e/Prog/winlibs64-11.3.0ucrt/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64-11.3.0ucrt/2604.gcc/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-I/e/Prog/winlibs64-11.3.0ucrt/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat -Wl,--disable-high-entropy-va -Wl,--disable-dynamicbase'
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+COMPILER_PATH=c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_715b8.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_715b8.'
+ c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=c:/users/hyman/downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\hyman\AppData\Local\Temp\ccXsvJ3n.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_715b8.exe c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_715b8.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/hyman/downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_715b8.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_715b8.'
+mingw32-make[1]: Leaving directory 'C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin'
+Unable to find the executable at any of:
+  C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp/cmTC_715b8
+  C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp/Debug/cmTC_715b8
+  C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeTmp/Development/cmTC_715b8
+
+
