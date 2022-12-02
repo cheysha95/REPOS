@@ -15,7 +15,7 @@ namespace Project1
 
         Vector2 pos = new Vector2(0,0);
 
-        string playerposition = string.Empty;
+       
 
         
 
@@ -35,7 +35,7 @@ namespace Project1
              link = Content.Load<Texture2D>("linkk");
             font = Content.Load<SpriteFont>("galleryFont");
 
-            string playerposition = pos.X.ToString() + "," + pos.Y.ToString();
+           
 
             base.Initialize();
         }
@@ -59,7 +59,6 @@ namespace Project1
 
             if (Keyboard.GetState().IsKeyDown(Keys.Up))
             {
-               
                 pos.Y = pos.Y -2;
             }
             if (Keyboard.GetState().IsKeyDown(Keys.Down))
