@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/galleryFont.spritefont","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/galleryFont.xnb","FontDescriptionProcessor","SpriteFontContent",2065,70687,0.5147882
+"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/linkk.png","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/linkk.xnb","TextureProcessor","Texture2DContent",262,1173,0.2404765

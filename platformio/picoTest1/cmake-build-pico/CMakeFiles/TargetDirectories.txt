@@ -1,5 +1,0 @@
-C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/CMakeFiles/Production.dir
-C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/CMakeFiles/Debug.dir
-C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir
-C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/CMakeFiles/edit_cache.dir
-C:/Users/hyman/REPOS/platformio/picoTest1/cmake-build-pico/CMakeFiles/rebuild_cache.dir

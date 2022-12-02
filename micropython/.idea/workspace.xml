@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a456e40-ccb4-402d-b7d2-a9ca3248db6a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/MicroPython.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/micropython.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pico_test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pico_test/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pico_test/.idea/libraries/MicroPython.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pico_test/.idea/micropython.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pico_test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pico_test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pico_test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pico_test/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/.idea/picoTest1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/.pio/build/pico/idedata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/.pio/build/project.checksum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/CMakeListsPrivate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4c7b4d857f11a2ed45fc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7dc57591bb34b105c249.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-af6e7926cf3990824ce7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-13T03-40-45-0535.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/target-Debug-Debug-10255051cea920044ced.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/target-Production-Debug-59dee6b3be6979191108.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/target-Z_DUMMY_TARGET-Debug-1b46b10df2fd082baed9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-199def89ba1a21daa8bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Debug.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Debug.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Debug.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Debug.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Debug.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Debug.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Production.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Production.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Production.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Production.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Production.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Production.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-debug/picoTest1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/cache-v2-79763238fa26f3ecc8e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/cmakeFiles-v1-7776b12ca85e7181267a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/codemodel-v2-f69f84f7125c08c26b44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/directory-.-pico-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/index-2022-11-13T03-40-50-0259.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/target-Debug-pico-d3caf0fb1011b6c604d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/target-Production-pico-cf2959bc571761c8c8a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/target-Z_DUMMY_TARGET-pico-d7ab2b751cd13f9acee6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/.cmake/api/v1/reply/toolchains-v1-199def89ba1a21daa8bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Debug.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Debug.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Debug.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Debug.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Debug.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Debug.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Production.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Production.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Production.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Production.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Production.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Production.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/Z_DUMMY_TARGET.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/cmake-build-pico/picoTest1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/include/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/lib/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/platformio.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformio/picoTest1/test/README" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2HY4TaKqaiXHqUkolWtjSjrjkyp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a456e40-ccb4-402d-b7d2-a9ca3248db6a" name="Changes" comment="" />
+      <created>1668448693566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668448693566</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
