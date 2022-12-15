@@ -10,18 +10,75 @@
 
 #-------------------------------- References --------------------------------#
 
+/reference:..\..\..\..\..\source\repos\MonoGame.Extended\src\cs\MonoGame.Extended.Content.Pipeline\bin\net6.0\MonoGame.Extended.Content.Pipeline.dll
 
 #---------------------------------- Content ---------------------------------#
 
-#begin tiles-overworld.png
+#begin Maps/oracle_tileset.png
 /importer:TextureImporter
 /processor:TextureProcessor
-/processorParam:ColorKeyColor=0,64,128,255
+/processorParam:ColorKeyColor=255,0,255,255
 /processorParam:ColorKeyEnabled=True
 /processorParam:GenerateMipmaps=False
 /processorParam:PremultiplyAlpha=True
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:tiles-overworld.png
+/build:Maps/oracle_tileset.png
+
+#begin Maps/Oracle.tsx
+/importer:TiledMapTilesetImporter
+/processor:TiledMapTilesetProcessor
+/build:Maps/Oracle.tsx
+
+#begin Maps/simple.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Maps/simple.tmx
+
+#begin Maps/simple2.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Maps/simple2.tmx
+
+#begin Maps/simple3.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Maps/simple3.tmx
+
+#begin SpriteSheets/link_spriteSheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:SpriteSheets/link_spriteSheet.png
+
+#begin SpriteSheets/link.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:SpriteSheets/link.png
+
+#begin SpriteSheets/npc.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:SpriteSheets/npc.png
 

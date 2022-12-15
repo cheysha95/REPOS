@@ -3,7 +3,6 @@ C:\Users\hyman\REPOS\Cs\Project1\Project1\obj\Debug\net6.0-windows\Project1.Gene
 C:\Users\hyman\REPOS\Cs\Project1\Project1\obj\Debug\net6.0-windows\Project1.AssemblyInfoInputs.cache
 C:\Users\hyman\REPOS\Cs\Project1\Project1\obj\Debug\net6.0-windows\Project1.AssemblyInfo.cs
 C:\Users\hyman\REPOS\Cs\Project1\Project1\obj\Debug\net6.0-windows\Project1.csproj.CoreCompileInputs.cache
-C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\Content\linkk.xnb
 C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\Project1.exe
 C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\Project1.deps.json
 C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\Project1.runtimeconfig.json
@@ -36,4 +35,8 @@ C:\Users\hyman\REPOS\Cs\Project1\Project1\obj\Debug\net6.0-windows\refint\Projec
 C:\Users\hyman\REPOS\Cs\Project1\Project1\obj\Debug\net6.0-windows\Project1.pdb
 C:\Users\hyman\REPOS\Cs\Project1\Project1\obj\Debug\net6.0-windows\Project1.genruntimeconfig.cache
 C:\Users\hyman\REPOS\Cs\Project1\Project1\obj\Debug\net6.0-windows\ref\Project1.dll
-C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\Content\galleryFont.xnb
+C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\MonoGame.Extended.dll
+C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\MonoGame.Extended.Graphics.dll
+C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\MonoGame.Extended.Tiled.dll
+C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\hyman\REPOS\Cs\Project1\Project1\bin\Debug\net6.0-windows\Autofac.dll

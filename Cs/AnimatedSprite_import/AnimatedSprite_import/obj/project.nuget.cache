@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ojW/G+ITLs4H3jOV/2gP/KEDfr0pDDhsLb6uktnND4SKRz9eW4mZqqAL27cQIwrlD9sZ6QljCrluArQ5ig4yw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hyman\\REPOS\\Cs\\AnimatedSprite_import\\AnimatedSprite_import\\AnimatedSprite_import.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hyman\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}

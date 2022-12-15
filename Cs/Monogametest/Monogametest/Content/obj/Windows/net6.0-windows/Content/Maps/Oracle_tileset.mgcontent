@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/Oracle_tileset.tsx</SourceFile>
+  <SourceTime>2022-12-09T06:03:32.5301007-06:00</SourceTime>
+  <DestFile>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/bin/Windows/Content/Maps/Oracle_tileset.xnb</DestFile>
+  <DestTime>2022-12-14T16:59:30.3195608-06:00</DestTime>
+  <Importer>TiledMapTilesetImporter</Importer>
+  <ImporterTime>2022-12-03T12:25:09.2103281-06:00</ImporterTime>
+  <Processor>TiledMapTilesetProcessor</Processor>
+  <ProcessorTime>2022-12-03T12:25:09.2103281-06:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset>
+    <string>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/bin/Windows/Content/Maps/Oracle_Tileset_0.xnb</string>
+  </BuildAsset>
+  <BuildOutput />
+</PipelineBuildEvent>

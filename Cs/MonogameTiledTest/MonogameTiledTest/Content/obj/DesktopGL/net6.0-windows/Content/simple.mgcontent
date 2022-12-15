@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/hyman/REPOS/Cs/MonogameTiledTest/MonogameTiledTest/Content/simple.tmx</SourceFile>
+  <SourceTime>2022-12-03T13:27:34.6106622-06:00</SourceTime>
+  <DestFile>C:/Users/hyman/REPOS/Cs/MonogameTiledTest/MonogameTiledTest/Content/bin/DesktopGL/Content/simple.xnb</DestFile>
+  <DestTime>2022-12-04T07:25:20.1079015-06:00</DestTime>
+  <Importer>TiledMapImporter</Importer>
+  <ImporterTime>2022-12-03T12:25:09.2103281-06:00</ImporterTime>
+  <Processor>TiledMapProcessor</Processor>
+  <ProcessorTime>2022-12-03T12:25:09.2103281-06:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset>
+    <string>C:/Users/hyman/REPOS/Cs/MonogameTiledTest/MonogameTiledTest/Content/bin/DesktopGL/Content/Oracle.xnb</string>
+  </BuildAsset>
+  <BuildOutput />
+</PipelineBuildEvent>

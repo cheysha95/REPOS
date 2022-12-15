@@ -4,9 +4,23 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonogameProject/Content/tiles-overworld.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonoGameProject/Content/Maps/oracle_tileset.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonoGameProject/Content/Maps/Oracle.tsx</File>
+    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonoGameProject/Content/Maps/simple.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonoGameProject/Content/Maps/simple2.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonoGameProject/Content/Maps/simple3.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonoGameProject/Content/SpriteSheets/link_spriteSheet.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonoGameProject/Content/SpriteSheets/link.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/MonogameProject/MonoGameProject/Content/SpriteSheets/npc.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

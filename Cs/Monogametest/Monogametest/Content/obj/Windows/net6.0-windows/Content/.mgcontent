@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/appear_vanish.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/effect_cling.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/electrocute.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/fire.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/gale_seed.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/leaves.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/mystery_seed.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/object_fall.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/rock_shatter.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/scent_seed_pod.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Effects/scent_seed.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/biggoron_sword.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/bomb_bounce.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/bomb_explode.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/boomerang_loop.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/fire_rod.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/key_bounce.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/magnet_gloves_loop.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/magnet_gloves_stop.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/seed_shooter.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/shield_deflect.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/shield.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/shoot_projectile.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/shovel.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/switch_hook_loop.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/switch_hook_switch.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/sword_beam.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/sword_charge.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/sword_slash_1.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/sword_slash_2.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/sword_slash_3.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Items/sword_spin.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Misc/dungeon_signal.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Misc/fanfare_essence.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Misc/fanfare_item.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Misc/low_health_loop.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Misc/minecart_loop.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Misc/room_exit.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Misc/secret_long.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Misc/secret.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Monster/monster_die.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Monster/monster_hurt.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Monster/monster_jump.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Pickups/get_heart.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Pickups/get_item.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Pickups/get_rupee_loop.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Pickups/get_rupee.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Pickups/heart_container.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Player/player_fall.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Player/player_hurt.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Player/player_jump.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Player/player_land.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Player/player_pickup.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Player/player_swim.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Player/player_throw.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Player/player_wade.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Projectiles/laser.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/barrier.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/block_push.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/blue_roller.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/chest_open.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/crossing_gate.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/dungeon_door.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/floor_crumble.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/switch.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/Tiles/turnstile.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/UI/menu_close.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/UI/menu_cursor_move.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/UI/menu_next.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/UI/menu_open.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/UI/menu_select.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/UI/text_continue.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Audio/UI/text_letter.wav</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/1.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/2.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/3.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/4.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/5.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/6.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/7.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/8.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/9.tmx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/Oracle_Tileset.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/Oracle_tileset.tsx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Effects/basic_effects_old.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Effects/basic_effects.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Effects/color_effects_old.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Effects/color_effects.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Fonts/font_large.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Fonts/font_small.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Items/items_large_light.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Items/items_large.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Items/items_small_light.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Items/items_small.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/link_spriteSheet.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Monsters/monster_items_old.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Monsters/monster_items.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Monsters/monster_previews.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Monsters/monsters.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/NPCs/biggoron_eyes.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/NPCs/biggoron.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/NPCs/npcs_red.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Player/player_items.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Player/player.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/action_tiles.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/black_8x8.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/cracked_floors.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/entrance_columns.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/entrance_lights.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_bricks.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_bright_patterns.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_dungeon.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_interior.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_misc_patterns.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_overworld.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_square_patterns.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_square_tiles_8x8.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/floors_square_tiles.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/interior.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/lanterns.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/railings.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/stairs.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/torches.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/tunnels.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/wall_columns.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/walls_jabu_jabu.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Indoors/walls.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Objects/color_cube.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Objects/doors.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Objects/entity_objects.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Objects/general_objects.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Objects/puzzle_objects.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Objects/turnstile.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/bridges.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/cliffs.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/ground.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/hedges.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/hollow_logs.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/horizon.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/obstacles.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/sand.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/snow_mounds.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/town_8x8.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/town_fountain.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/town_house_walls.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/town_misc.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/town_roofs.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/trees.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/vertical_walls.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/vines.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/water_obstacles.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Overworld/water.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/SideScroll/ss_animations.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/SideScroll/ss_entity_objects.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/SideScroll/ss_general.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/SideScroll/ss_walls.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Special/ancient_ruins.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Special/forest_entrance.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Special/graveyard.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Special/onoxs_castle.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/Special/temple_of_seasons.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Tiles/tile_previews.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/menu_essences_fancy.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/menu_essences.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/menu_key_items_fancy.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/menu_key_items.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/menu_weapons_fancy.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/menu_weapons.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/screen_dungeon_map.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/ui_dungeon_map_small.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/ui_large.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/ui_small.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/ui_world_map_small.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

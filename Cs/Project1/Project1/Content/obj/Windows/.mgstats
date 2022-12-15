@@ -1,3 +1,7 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/galleryFont.spritefont","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/galleryFont.xnb","FontDescriptionProcessor","SpriteFontContent",2065,70687,0.5147882
-"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/linkk.png","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/linkk.xnb","TextureProcessor","Texture2DContent",262,1173,0.2404765
+"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/../ASSETS/tumblr_pym3d3h2r31ryhg8fo1_1280.png","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/../ASSETS/tumblr_pym3d3h2r31ryhg8fo1_1280_0.xnb","TextureProcessor","Texture2DContent",149738,1871445,0.0918258
+"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/ASSETS/tumblr_pym3d3h2r31ryhg8fo1_1280.png","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/ASSETS/tumblr_pym3d3h2r31ryhg8fo1_1280.xnb","TextureProcessor","Texture2DContent",149738,1871445,0.3527064
+"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/galleryFont.spritefont","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/galleryFont.xnb","FontDescriptionProcessor","SpriteFontContent",2065,70687,0.2311442
+"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/linkk.png","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/linkk.xnb","TextureProcessor","Texture2DContent",262,1173,0.005448
+"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/Oracle.tsx","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/Oracle.xnb","TiledMapTilesetProcessor","TiledMapTilesetContentItem",262,164,0.1734591
+"C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/simple.tmx","C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/bin/Windows/simple.xnb","TiledMapProcessor","TiledMapContentItem",2828,4970,0.1056592

@@ -4,10 +4,16 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/ASSETS/tumblr_pym3d3h2r31ryhg8fo1_1280.png</File>
     <File>C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/galleryFont.spritefont</File>
     <File>C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/linkk.png</File>
+    <File>C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/Oracle.tsx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Project1/Project1/Content/simple.tmx</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

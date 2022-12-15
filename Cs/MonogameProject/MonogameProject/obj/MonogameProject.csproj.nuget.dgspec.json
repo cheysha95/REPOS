@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonogameProject\\MonogameProject.csproj": {}
+    "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonoGameProject\\MonoGameProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonogameProject\\MonogameProject.csproj": {
+    "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonoGameProject\\MonoGameProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonogameProject\\MonogameProject.csproj",
-        "projectName": "MonogameProject",
-        "projectPath": "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonogameProject\\MonogameProject.csproj",
+        "projectUniqueName": "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonoGameProject\\MonoGameProject.csproj",
+        "projectName": "MonoGameProject",
+        "projectPath": "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonoGameProject\\MonoGameProject.csproj",
         "packagesPath": "C:\\Users\\hyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonogameProject\\obj\\",
+        "outputPath": "C:\\Users\\hyman\\REPOS\\Cs\\MonogameProject\\MonoGameProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,13 +44,17 @@
               "target": "Package",
               "version": "[3.8.1.303, )"
             },
-            "MonoGame.Extended": {
+            "MonoGame.Extended.Content.Pipeline": {
               "target": "Package",
               "version": "[3.8.0, )"
             },
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
               "version": "[3.8.1.303, )"
+            },
+            "TiledCS": {
+              "target": "Package",
+              "version": "[3.3.3, )"
             }
           },
           "imports": [

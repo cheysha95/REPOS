@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "kpZmumkqVMPIajO4q2XvxhUV8EH3s+cTnlf6iaC084+Jff6dtzGuymXrD3hBx5qP60BeMAouzfY5FJ1JLpZYuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hyman\\REPOS\\Cs\\tile_test\\tile_test\\tile_test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hyman\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\hyman\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\hyman\\.nuget\\packages\\tiledcs\\3.3.3\\tiledcs.3.3.3.nupkg.sha512",
+    "C:\\Users\\hyman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\hyman\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\hyman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\hyman\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/../../../../ASSETS/linkk.png","C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/bin/Windows/linkk.xnb","TextureProcessor","Texture2DContent",560,1109,0.2498958
+"C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/npc.png","C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/bin/Windows/npc.xnb","TextureProcessor","Texture2DContent",275,1849,0.0043787

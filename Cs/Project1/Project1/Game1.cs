@@ -1,6 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+
+
+
 //using System.Windows.Forms;
 
 namespace Project1
@@ -10,10 +13,13 @@ namespace Project1
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+
         Texture2D link;
         SpriteFont font;
 
         Vector2 pos = new Vector2(0,0);
+        
+        
 
        
 
@@ -42,6 +48,8 @@ namespace Project1
 
         protected override void LoadContent()
         {
+            
+          
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
 
@@ -55,6 +63,8 @@ namespace Project1
                 Exit();
 
             // TODO: Add your update logic here
+            
+      
          
 
             if (Keyboard.GetState().IsKeyDown(Keys.Up))
@@ -88,6 +98,8 @@ namespace Project1
 
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
+            
+        
 
             _spriteBatch.Draw(link , pos, Color.White);
 
