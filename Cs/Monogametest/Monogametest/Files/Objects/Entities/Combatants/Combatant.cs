@@ -11,7 +11,7 @@ namespace Monogametest
 {
     public class Combatant : Entity 
     {
-        public Combatant(ContentManager content,Vector2 vpos) : base(content, vpos)
+        public Combatant(ContentManager content,Vector2 vpos, int id) : base(content, vpos, id)
         {
             currentAnimation = currentState.ToString() + currentDirection.ToString();
             currentDirection = Direction.EAST;

@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 namespace Monogametest
 
 {
-    public class ScaleManager
+    public class ScreenRenderer : MGR
     {
         Rectangle renderTargetDestination;
         RenderTarget2D rendertarget;
@@ -14,12 +14,11 @@ namespace Monogametest
         int windowHeight = 240;
         int scalefactor = 3;
 
-        public ScaleManager(GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager, int windowWidth, int windowHeight)
+        public ScreenRenderer(GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager, int windowWidth, int windowHeight)
         {
             //Sets scrren size and applys changes
             graphicsDeviceManager.PreferredBackBufferHeight = windowHeight * scalefactor;
             graphicsDeviceManager.PreferredBackBufferWidth = windowWidth * scalefactor; 
-            graphicsDeviceManager.ApplyChanges();
             graphicsDeviceManager.ApplyChanges();
 
             // Creates rendertarget and generates rendering destination 

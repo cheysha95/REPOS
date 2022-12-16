@@ -9,6 +9,7 @@ using TiledCS;
 using Microsoft.Xna.Framework.Content;
 using System.Security.Cryptography.X509Certificates;
 using System.Runtime.CompilerServices;
+using tile_test;
 
 namespace Monogametest
 {
@@ -56,6 +57,8 @@ namespace Monogametest
                         var gid = _currentMap.Layers[l].data[index]; // The currentTileset tile index
                         var tileX = x * _currentMap.TileWidth;
                         var tileY = y * _currentMap.TileHeight;
+
+                        //var testTile = new Tile();
 
                         // Gid 0 is used to tell there is no tile set
                         if (gid == 0)

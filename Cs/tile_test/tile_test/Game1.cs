@@ -11,6 +11,7 @@ namespace tile_test
         private SpriteBatch _spriteBatch;
         public ScaleManager scaleManager;
         public Tile testTile;
+        public Texture2D testTexture;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -36,9 +37,13 @@ namespace tile_test
             var frameList = new List<TileFrame>();
             frameList.Add(testFrame);
             frameList.Add(testFrame2);
+
+            testTexture = Content.Load<Texture2D>("Images\\Player\\player");
  
-            testTile = new Tile(0,0,0,frameList,120,"Images\\NPCs\\npcs_red"); // controlls locations drawn
-            testTile.LoadContent(Content);
+            testTile = new Tile(0,0,0,frameList,120, 0); // controlls locations drawn
+
+
+            testTile.LoadContent(ref testTexture); // load spritesheet
 
 
 

@@ -12,7 +12,7 @@ using System.Runtime.CompilerServices;
 
 namespace Monogametest
 {
-    public class TiledMapRenderer
+    public class TiledMapLoader
     {
         public TiledTileset _tileset;
         public Texture2D _tilesetTexture;
@@ -22,7 +22,7 @@ namespace Monogametest
         public int _tilesetTilesWide;
         public int _tilesetTilesHeight;
 
-        public TiledMapRenderer(GraphicsDevice graphicsDevice, TiledMap currentMap, TiledTileset tileset, Texture2D tilesetTexture)
+        public TiledMapLoader(GraphicsDevice graphicsDevice, TiledMap currentMap, TiledTileset tileset, Texture2D tilesetTexture)
         {
             _currentMap = currentMap;
             _tilesetTexture = tilesetTexture;

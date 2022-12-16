@@ -11,7 +11,7 @@ namespace Monogametest.Files.Objects.Entities.Combatants
 {
     public class Octorock : Combatant
     {
-        public Octorock(ContentManager content, Vector2 vpos) : base(content, vpos)
+        public Octorock(ContentManager content, Vector2 vpos, int id) : base(content, vpos, id)
         {
 
         }

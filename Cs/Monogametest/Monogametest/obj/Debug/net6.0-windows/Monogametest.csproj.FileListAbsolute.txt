@@ -216,3 +216,4 @@ C:\Users\hyman\REPOS\Cs\Monogametest\Monogametest\bin\Debug\net6.0-windows\Conte
 C:\Users\hyman\REPOS\Cs\Monogametest\Monogametest\bin\Debug\net6.0-windows\Content\SpriteSheets\UI\ui_large.xnb
 C:\Users\hyman\REPOS\Cs\Monogametest\Monogametest\bin\Debug\net6.0-windows\Content\SpriteSheets\UI\ui_small.xnb
 C:\Users\hyman\REPOS\Cs\Monogametest\Monogametest\bin\Debug\net6.0-windows\Content\SpriteSheets\UI\ui_world_map_small.xnb
+C:\Users\hyman\REPOS\Cs\Monogametest\Monogametest\bin\Debug\net6.0-windows\Content\SpriteFonts\Arial16.xnb

@@ -16,7 +16,7 @@ namespace tile_test
     public class Tile
     {
         string textureName;
-        public Texture2D texture;
+        public Texture2D texture;    // right now each tile has its own spritesheet, may be better to load sprite sheets into somthing else first, than have the manager give the source rec? to tile
 
         public int tileWidth = 16;
         public int tileHeight = 16;
@@ -29,21 +29,22 @@ namespace tile_test
         public double _counter;
         public int animationIndex;
 
-        public Tile(int posx , int posy, int posz,List<TileFrame>TileFrames, int animationSpeed, string TextureName)
+        public Tile(int posx , int posy, int posz,List<TileFrame>TileFrames, int animationSpeed, int id)
         {
 
- 
+            this.ID = id;
             this.posX = posx;
             this.posY = posy; 
             this.posZ = posz;
             this.animationSpeed = animationSpeed;
-            this.textureName = TextureName;
+            //this.textureName = TextureName;
             this.tileframes = TileFrames;
         }
 
-        public void LoadContent(ContentManager content)
+        public void LoadContent(ContentManager content,string textureName)
         {
             texture = content.Load<Texture2D>(textureName);
+             //texture = spriteSheet;
         }
 
         public void Update(GameTime gameTime)

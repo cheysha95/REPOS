@@ -17,21 +17,20 @@ namespace Monogametest
         public State currentState = State.Idle;
 
 
-        public Vector2 vectorDir;
+
         public string currentAnimation = "IdleSouth";
-        public float moveSpeed = 80;
+        public float moveSpeed = 80f;
    
 
-        public Entity(ContentManager content, Vector2 vpos) : base(content, vpos, 16, 16)
+        public Entity(ContentManager content, Vector2 vpos, int id) : base(content, vpos, 16, 16, id)
         {
-            objectHeight = 16;objectWidth = 16;
-
+            Height = 16;Width = 16;
         } 
 
         public void Update(GameTime gameTime)
         {
-            walk(gameTime);
-            Debug.WriteLine("walking");
+            setCurrentDirection();
+            Move(gameTime);
 
             base.Update(gameTime);
         }
@@ -42,37 +41,21 @@ namespace Monogametest
             base.Draw(spriteBatch);
         }
 
-        public void walk(GameTime gameTime)
+   
+        public void setCurrentDirection()
         {
-
-            /*currentState = State.Walking;
-            if (direction == Direction.NORTH)
-            {
-                vectorDir.Y = -1;
-
-            }
-            else if (direction == Direction.SOUTH)
-            {
-                vectorDir.Y = 1;
-
-            }
-            else if (direction == Direction.EAST)
-            {
-                vectorDir.X = 1;
-
-            }
-            else if (direction == Direction.WEST)
-            {
-                vectorDir.X = -1;
-
-            }
-            currentState = State.Idle;
-            vectorDir = Vector2.Zero;
-            */
-            //this.vectoPos.X += vectorDir.X * (moveSpeed * (float)gameTime.ElapsedGameTime.TotalMilliseconds);
-            //this.vectoPos.Y += vectorDir.Y * (moveSpeed * (float)gameTime.ElapsedGameTime.TotalMilliseconds);
- 
+            if (vectorDir.X == 1) { currentDirection = Direction.EAST; }
+            if (vectorDir.X == -1) { currentDirection = Direction.WEST; }
+            if (vectorDir.Y == 1) { currentDirection = Direction.SOUTH; }
+            if (vectorDir.Y == -1) { currentDirection = Direction.NORTH; }
         }
+
+        public void Move(GameTime gameTime)
+        {
+            this.vectoPos.X += vectorDir.X * (moveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds);
+            this.vectoPos.Y += vectorDir.Y * (moveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds);
+        }
+
 
 
     }
@@ -81,14 +64,25 @@ namespace Monogametest
     public class Npc : Entity
     {
         string text;
-        public Npc(ContentManager content, Vector2 vpos) : base(content, vpos)
+        public Npc(ContentManager content, Vector2 vpos, int id) : base(content, vpos, id)
         {
             //spriteSheet = content.Load<Texture2D>("SpriteSheets\\link_spriteSheet"); // placeholder
             text = "This is some debug text for a NPC";
             name = "npc";
-            ID = 2;
+           
 
             currentDirection = Direction.EAST;
+        }
+
+        public void Update(GameTime gameTime)
+        {
+
+            base.Update(gameTime);
+        }
+
+        public void Draw(SpriteBatch spriteBatch)
+        {
+            base.Draw(spriteBatch);
         }
     }
 

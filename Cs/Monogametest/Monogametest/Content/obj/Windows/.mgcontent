@@ -88,6 +88,7 @@
     <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/9.tmx</File>
     <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/Oracle_Tileset.png</File>
     <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/Maps/Oracle_tileset.tsx</File>
+    <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteFonts/Arial16.spritefont</File>
     <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Effects/basic_effects_old.png</File>
     <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Effects/basic_effects.png</File>
     <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/Effects/color_effects_old.png</File>
@@ -179,6 +180,7 @@
     <File>C:/Users/hyman/REPOS/Cs/Monogametest/Monogametest/Content/SpriteSheets/UI/ui_world_map_small.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

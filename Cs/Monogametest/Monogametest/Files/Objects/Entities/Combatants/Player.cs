@@ -9,37 +9,65 @@ using Microsoft.Xna.Framework.Input;
 using TiledCS;
 using MonoGame.Extended.Timers;
 using SharpDX.DirectWrite;
-using A1r.Input;
 
 namespace Monogametest
 {
     public class Player : Combatant
     {
         public KeyboardState previousKeyboardState = Keyboard.GetState();
-        public KeyboardState keyboardState = Keyboard.GetState();
+        public KeyboardState currentKeyboardState = Keyboard.GetState();
         public int hp = 10;
-        
-       
-        public Player(ContentManager content, Vector2 vpos) : base(content, vpos)
+
+            
+        public Player(ContentManager content, Vector2 vpos, int id) : base(content, vpos, id)
         {
             name = "player";
-            ID = 1;
-           // vectorDir.Y = 1;
-            
+            ID = 255;  
+            previousKeyboardState= Keyboard.GetState();
         }
         public void Update(GameTime gameTime)
         {
-            //vectoPos.X = vectoPos.X +10;
-           // vectoPos.X = 10; of ocurse its not updating, as onliny gameonbjects are added to a list, obj mgr needs more lists
+            base.Update(gameTime); // calls the root Update function, UNITS Update funtion
 
-            base.Update(gameTime); // calls the root update function, UNITS update funtion
+            handleInput();
+
+           
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch) { base.Draw(spriteBatch); }
+
+        //------------------------------------------------
+        public void handleInput()
         {
+            currentKeyboardState = Keyboard.GetState();  // player needs to check for collision twice wevery movement, once on x and once on y 
+
+            if (currentKeyboardState.IsKeyDown(Keys.W)) { vectorDir.Y = -1; } // set y velocity if pressed
+            if (currentKeyboardState.IsKeyUp(Keys.W) & !previousKeyboardState.IsKeyUp(Keys.W)) { vectorDir.Y = 0; } // reset y velocity if let go
+            //-------------------------------------------------
+            if (currentKeyboardState.IsKeyDown(Keys.S)) { vectorDir.Y = 1; }
+            if (currentKeyboardState.IsKeyUp(Keys.S) & !previousKeyboardState.IsKeyUp(Keys.S)) { vectorDir.Y = 0; }
+            //--------------------------------------------------
+            //----------------------------------------------------
+            if (currentKeyboardState.IsKeyDown(Keys.D)) { vectorDir.X = 1; }
+            if (currentKeyboardState.IsKeyUp(Keys.D) & !previousKeyboardState.IsKeyUp(Keys.D)) { vectorDir.X = 0; }
+            //-----------------------------------------------------
+            if (currentKeyboardState.IsKeyDown(Keys.A)) { vectorDir.X = -1; }
+            if (currentKeyboardState.IsKeyUp(Keys.A) & !previousKeyboardState.IsKeyUp(Keys.A)) { vectorDir.X = 0; }        
+            //-----------------------------------------------------
+            if (currentKeyboardState.IsKeyDown(Keys.B))
+            { Console.Write("Breakpoint!"); }
 
 
-            base.Draw(spriteBatch);
+
+
+            previousKeyboardState = Keyboard.GetState();
+        }
+        public void reseatPlayer(Direction direction)
+        {
+            if (direction == Direction.NORTH) { /*move player from top to bottom*/}
+            if (direction == Direction.SOUTH) { /*move player from bottom to top*/}
+            if (direction == Direction.EAST) { /*move player from rightside to leftside*/}
+            if (direction == Direction.WEST) { /*move player from leftside to rightside*/}
         }
     }
 }

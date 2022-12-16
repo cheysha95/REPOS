@@ -514,6 +514,13 @@
 /processor:TiledMapTilesetProcessor
 /build:Maps/Oracle_tileset.tsx
 
+#begin SpriteFonts/Arial16.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:SpriteFonts/Arial16.spritefont
+
 #begin SpriteSheets/Effects/basic_effects_old.png
 /importer:TextureImporter
 /processor:TextureProcessor
