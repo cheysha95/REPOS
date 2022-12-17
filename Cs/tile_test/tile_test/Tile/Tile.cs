@@ -37,7 +37,7 @@ namespace tile_test
             this.posY = posy; 
             this.posZ = posz;
             this.animationSpeed = animationSpeed;
-            //this.textureName = TextureName;
+            this.textureName = TextureName;
             this.tileframes = TileFrames;
         }
 

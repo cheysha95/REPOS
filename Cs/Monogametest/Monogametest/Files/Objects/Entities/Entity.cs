@@ -13,13 +13,13 @@ namespace Monogametest
 {
     public class Entity : GameObject
     {
-        public enum State { Idle, Walking }
-        public State currentState = State.Idle;
+        //public enum State { Idle, Walking }
+        //public State currentState = State.Idle;
 
 
 
         public string currentAnimation = "IdleSouth";
-        public float moveSpeed = 80f;
+        public float moveSpeed = .1f;
    
 
         public Entity(ContentManager content, Vector2 vpos, int id) : base(content, vpos, 16, 16, id)
@@ -29,7 +29,6 @@ namespace Monogametest
 
         public void Update(GameTime gameTime)
         {
-            setCurrentDirection();
             Move(gameTime);
 
             base.Update(gameTime);
@@ -41,19 +40,21 @@ namespace Monogametest
             base.Draw(spriteBatch);
         }
 
-   
-        public void setCurrentDirection()
-        {
-            if (vectorDir.X == 1) { currentDirection = Direction.EAST; }
-            if (vectorDir.X == -1) { currentDirection = Direction.WEST; }
-            if (vectorDir.Y == 1) { currentDirection = Direction.SOUTH; }
-            if (vectorDir.Y == -1) { currentDirection = Direction.NORTH; }
-        }
-
         public void Move(GameTime gameTime)
         {
-            this.vectoPos.X += vectorDir.X * (moveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds);
-            this.vectoPos.Y += vectorDir.Y * (moveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds);
+
+            if (vectorDir == Vector2.Zero) { return; }
+            vectorDir.Normalize();
+
+            velcoityX = vectorDir.X * (moveSpeed * (float)gameTime.ElapsedGameTime.TotalMilliseconds);
+            velcoityY = vectorDir.Y * (moveSpeed * (float)gameTime.ElapsedGameTime.TotalMilliseconds);
+
+
+            vectorPos.X += velcoityX;
+            vectorPos.Y += velcoityY;
+            pos.X = (int)Math.Round(vectorPos.X);
+            pos.Y = (int)Math.Round(vectorPos.Y);
+
         }
 
 

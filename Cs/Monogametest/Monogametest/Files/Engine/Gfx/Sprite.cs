@@ -16,7 +16,7 @@ namespace Monogametest
 {
     public class Sprite
     {
-        string textureName;
+        public string textureName;
         public Texture2D texture;
 
         public int tileWidth = 16;
@@ -33,22 +33,13 @@ namespace Monogametest
         {
             this.posX = posx;
             this.posY = posy;
-            //this.posZ = posz;
    
             this.textureName = TextureName;
             this.animationFrames = AnimationFrames;
         }
 
-        public void LoadContent(ContentManager content)
+        public void Update(GameTime gameTime)
         {
-            texture = content.Load<Texture2D>(textureName); // DONT FORET ABOUT ME
-        }
-
-        public void Update(GameTime gameTime, int x, int y)
-        {
-            //updates position
-            posX = x; posY = y;
-
             //updates animation
             if (animationFrames.Count <= 1)
             {
@@ -66,15 +57,17 @@ namespace Monogametest
                 }
             }
         }
-        public void Draw(SpriteBatch spriteBatch)
-        {           // sourceinpixels = posX * tilewidth + (1*posX)
+
+        public void Draw(SpriteBatch spriteBatch, Vector2 pos)
+        {           
             var sourceRectangle = new Rectangle(animationFrames[animationIndex].textureX * (tileWidth + gap) + 1, animationFrames[animationIndex].textureY * (tileHeight + gap) + 1,
                 tileWidth, tileHeight);
+            var destinationRectangle = new Rectangle((int)pos.X , (int)pos.Y, tileWidth, tileHeight);
+           
+            //do not delete
+           // spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(Game1.debugTexture,destinationRectangle,Color.Black);
 
-
-            var destinationRectangle = new Rectangle(posX , posY, tileWidth, tileHeight);
-
-            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, Color.White);
         }
 
 

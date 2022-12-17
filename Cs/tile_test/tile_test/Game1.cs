@@ -43,7 +43,7 @@ namespace tile_test
             testTile = new Tile(0,0,0,frameList,120, 0); // controlls locations drawn
 
 
-            testTile.LoadContent(ref testTexture); // load spritesheet
+            testTile.LoadContent(testTexture); // load spritesheet
 
 
 

@@ -23,7 +23,10 @@ namespace Monogametest
         public static ScreenRenderer _scaleManager;
         public static MapManager _mapManager;
         public static SpriteFont font;
+        public static Texture2D debugTexture;
 
+
+        //Debug texture being drawn by sprite draw.
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -35,6 +38,8 @@ namespace Monogametest
         protected override void Initialize()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            debugTexture = new Texture2D(GraphicsDevice,1,1);
+            debugTexture.SetData(new[] { Color.White });
             base.Initialize();         
         }
 
@@ -47,7 +52,7 @@ namespace Monogametest
 
         protected override void Update(GameTime gameTime)
         {
-            _mapManager.Update(Content, gameTime);
+            _mapManager.Update(gameTime);
             base.Update(gameTime);         
         }
 

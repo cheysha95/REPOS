@@ -10,7 +10,6 @@ namespace Monogametest
     {
         public int textureX;
         public int textureY;
-
         public AnimationFrame(int x, int y)
         {
             textureX = x + 1;

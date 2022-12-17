@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 namespace Monogametest
 
 {
-    public class ScreenRenderer : MGR
+    public class ScreenRenderer 
     {
         Rectangle renderTargetDestination;
         RenderTarget2D rendertarget;
